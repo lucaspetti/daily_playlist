@@ -4,7 +4,7 @@ Get a random playlist from any user and open directly on your browser
 
 ## Getting started
 
-This project relies on the [Go Spotify API Client](github.com/zmb3/spotify)
+This project relies on the [Go Spotify API Client](https://github.com/zmb3/spotify)
 
 Make sure to set the following env variables (they can be included in a .env file):
 
