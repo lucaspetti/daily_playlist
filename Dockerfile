@@ -1,4 +1,4 @@
-FROM golang:1.16-alpine
+FROM golang:1.24.5-alpine
 
 ADD . /go/src/daily_playlist
 
