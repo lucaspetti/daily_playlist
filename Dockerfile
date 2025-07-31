@@ -11,6 +11,6 @@ RUN go mod download
 
 COPY *.go ./
 
-RUN go build -o /daily_playlist
+RUN go build -o ./daily_playlist
 
 ENTRYPOINT [ "./daily_playlist" ]
