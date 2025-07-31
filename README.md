@@ -6,12 +6,10 @@ Get a random playlist from any user and open directly on your browser
 
 This project relies on the [Go Spotify API Client](https://github.com/zmb3/spotify)
 
-Make sure to set the following env variables (they can be included in a .env file):
+Copy the .env.example and set all needed env variables:
 
 ```bash
-SPOTIFY_ID
-SPOTIFY_SECRET
-SPOTIFY_USER_ID
+cp .env.example .env
 ```
 
 ID and SECRET will be used to authenticate against the Spotify API.
